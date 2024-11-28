@@ -1,7 +1,7 @@
 # Lottery Data Analysis Project
 
 ### Overview
-This project analyzes lottery jackpot data from 2002 to 2018, showcasing trends in jackpot frequency and total prize amounts over time. The analysis was performed using several tools and techniques to preprocess, clean, and visualize the data.
+This project analyzes lottery data from 2002 to 2018, showcasing trends in jackpot frequency and total prize amounts over time. The analysis was performed using several tools and techniques to preprocess, clean, and visualize the data.
 
 ### Tools Used
 *Microsoft Excel*: For initial data cleaning and preprocessing.
