@@ -76,7 +76,7 @@ This dual-axis chart compares the number of jackpots #(green bars)# with the tot
 Insights:
 In *2015*, the highest number of jackpots *48* also corresponded to one of the highest total prize amounts.
 Total prizes are not always proportional to the number of jackpots, as seen in *2008* and *2017*, where total prizes peaked despite moderate jackpot counts.
-``` 3. Yearly Development of Total Prizes
+** 3. Yearly Development of Total Prizes
 
 This line chart shows the growth of total prize amounts over time.
 Insights:
