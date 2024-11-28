@@ -62,22 +62,22 @@ Three key visualizations were created:
 *Annual Number of Jackpots*: A bar chart showing the total number of jackpots per year.
 *Jackpots vs. Total Prizes Over Time*: A dual-axis chart comparing the number of jackpots and total prize amounts for each year.
 *Yearly Development of Total Prize*: A line chart illustrating the trend in total prize amounts over time.
-* Visualizations
+
+### Visualizations
 
 1. Annual Number of Jackpots
-
 This bar chart shows the total number of jackpots per year.
 *Insights:*
 The number of jackpots increased over time, with a notable peak in #2015# #(48 jackpots)#.
 There were years with fewer jackpots, such as #2002–2005#, indicating a gradual increase over the years.
-2. Jackpots vs. Total Prizes Over Time
 
+2. Jackpots vs. Total Prizes Over Time
 This dual-axis chart compares the number of jackpots #(green bars)# with the total prize amount #(orange line)# for each year.
 Insights:
 In *2015*, the highest number of jackpots *48* also corresponded to one of the highest total prize amounts.
 Total prizes are not always proportional to the number of jackpots, as seen in *2008* and *2017*, where total prizes peaked despite moderate jackpot counts.
-3. Yearly Development of Total Prizes
 
+3. Yearly Development of Total Prizes
 This line chart shows the growth of total prize amounts over time.
 Insights:
 There is a steady increase in total prize amounts from *2002 to 2018*, peaking in *2017* at €138 million.
