@@ -1,17 +1,17 @@
 # Lottery Data Analysis Project
 
-** Overview
+## Overview
 This project analyzes lottery jackpot data from 2002 to 2018, showcasing trends in jackpot frequency and total prize amounts over time. The analysis was performed using several tools and techniques to preprocess, clean, and visualize the data.
 
-** Tools Used
+## Tools Used
 *Microsoft Excel*: For initial data cleaning and preprocessing.
 *Snowflake (Community Edition)*: For storing, managing, and querying the data using SQL.
 *Tableau Public*: For creating interactive visualizations.
 *CSV Format*: For transferring data between tools.
 
-** Process
+## Process
 
-** 1. Data Collection and Preparation
+* 1. Data Collection and Preparation
 
 Raw lottery data in Excel format was downloaded.
 The data contained unnecessary columns (e.g., notes), which were removed in Excel.
@@ -21,7 +21,7 @@ Columns were renamed to:
 *Jackpots*
 *Total Prize (EUR)*
 The *Total Prize (EUR)* column was cleaned and formatted to include commas for thousand separators and to display amounts in millions of euros.
-** 2. Database Creation and Data Querying
+* 2. Database Creation and Data Querying
 
 A *database* and *table* were created in Snowflake:
 ```sql
@@ -55,7 +55,7 @@ A single row for each year *(2002–2018)*.
 The total number of jackpots and total prize amounts for each year.
 The queried data was exported from Snowflake in *CSV format*.
 
-** 3. Data Visualization
+* 3. Data Visualization
 
 The aggregated data was imported into *Tableau Public*.
 Three key visualizations were created:
@@ -64,19 +64,19 @@ Three key visualizations were created:
 *Yearly Development of Total Prize*: A line chart illustrating the trend in total prize amounts over time.
 * Visualizations
 
-** 1. Annual Number of Jackpots
+* 1. Annual Number of Jackpots
 
 This bar chart shows the total number of jackpots per year.
 *Insights:*
 The number of jackpots increased over time, with a notable peak in #2015# #(48 jackpots)#.
 There were years with fewer jackpots, such as #2002–2005#, indicating a gradual increase over the years.
-** 2. Jackpots vs. Total Prizes Over Time
+* 2. Jackpots vs. Total Prizes Over Time
 
 This dual-axis chart compares the number of jackpots #(green bars)# with the total prize amount #(orange line)# for each year.
 Insights:
 In *2015*, the highest number of jackpots *48* also corresponded to one of the highest total prize amounts.
 Total prizes are not always proportional to the number of jackpots, as seen in *2008* and *2017*, where total prizes peaked despite moderate jackpot counts.
-** 3. Yearly Development of Total Prizes
+* 3. Yearly Development of Total Prizes
 
 This line chart shows the growth of total prize amounts over time.
 Insights:
@@ -85,7 +85,7 @@ The trend indicates growing lottery popularity or changes in prize structures ov
 
 ---
 
-** License
+## License
 
 The *project's code and documentation* are licensed under the **MIT License**.  
 The *data* used in this project is licensed under **Public Domain**, and the dataset can be accessed (https://www.avoindata.fi/data/fi/dataset/loton-miljoonavoitot).
